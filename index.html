@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>백남준 아트센터 리뉴얼</title>
+<!--[if lt IE 9]>   
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src=js/main.js></script>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div id="wrap">
+		<div id="top_wrap">
+			<header id="top">
+				<h1><a href="index.html"><img src="images/logo.png" alt="NAMJUNEPAIK ART CENTER" width="367" height="65"></a></h1>
+				<nav id="menu_wrap">
+					<ul id="menu">
+						<li><a href="#">이용안내</a>
+							<ul>
+								<li><a href="#">관람안내</a></li>
+								<li><a href="#">단체관람</a></li>
+								<li><a href="#">편의시설</a></li>
+								<li><a href="#">이용문의</a></li>
+								<li><a href="#">FAQ</a></li>
+							</ul>
+						</li><!--이용안내-->
+						<li><a href="#">백남준</a>
+							<ul>
+								<li><a href="#">백남준</a></li>
+								<li><a href="#">연보</a></li>
+								<li><a href="#">어록</a></li>
+								<li><a href="#">참고자료</a></li>
+								<li><a href="#">NJP Channel</a></li>
+							</ul>
+						</li><!--백남준-->
+						<li><a href="#">전시</a>
+							<ul>
+								<li><a href="#">ALL</a></li>
+								<li><a href="#">백남준전</a></li>
+								<li><a href="#">기획전시</a></li>
+							</ul>
+						</li><!--전시-->
+						<li><a href="#">교육&amp;행사</a>
+							<ul>
+								<li><a href="#">All</a></li>
+								<li><a href="#">연간 교육안내</a></li>
+								<li><a href="#">교육자료</a></li>
+								<li><a href="#">교육</a></li>
+								<li><a href="#">이벤트</a></li>
+								<li><a href="#">세미나</a></li>
+							</ul>
+						</li><!--교육&행사-->
+					</ul><!--menu-->
+					<p id="menu_btn"><span>MENU</span></p>
+					<div id="mobile_menu">
+						<p id="close_btn">X</p>
+						<ul>
+							<li><a href="#">이용안내</a>
+								<ul>
+									<li><a href="#">관람안내</a></li>
+									<li><a href="#">단체관람</a></li>
+									<li><a href="#">편의시설</a></li>
+									<li><a href="#">이용문의</a></li>
+									<li><a href="#">FAQ</a></li>
+								</ul>
+							</li><!--이용안내-->
+							<li><a href="#">백남준</a>
+								<ul>
+									<li><a href="#">백남준</a></li>
+									<li><a href="#">연보</a></li>
+									<li><a href="#">어록</a></li>
+									<li><a href="#">참고자료</a></li>
+									<li><a href="#">NJP Channel</a></li>
+								</ul>
+							</li><!--백남준-->
+							<li><a href="#">전시</a>
+								<ul>
+									<li><a href="#">ALL</a></li>
+									<li><a href="#">백남준전</a></li>
+									<li><a href="#">기획전시</a></li>
+								</ul>
+							</li><!--전시-->
+							<li><a href="#">교육&amp;행사</a>
+								<ul>
+									<li><a href="#">All</a></li>
+									<li><a href="#">연간 교육안내</a></li>
+									<li><a href="#">교육자료</a></li>
+									<li><a href="#">교육</a></li>
+									<li><a href="#">이벤트</a></li>
+									<li><a href="#">세미나</a></li>
+								</ul>
+							</li><!--교육&행사-->
+						</ul>
+					</div><!--mobile_menu-->
+				</nav><!--menu_wrap-->
+			</header><!--top-->
+		</div><!--top_wrap-->
+		<div id="container">
+			<section id="main">
+				<h2>NAM</h2>
+				<h2>JUNE</h2>
+				<h2>PAIK</h2>
+				<h2>ART</h2>
+				<h2>CENTER</h2>
+			</section><!--main-->
+			<div id="open_alarm">
+				<p><a href="#">백남준 아트센터<br><span class="alarm">오늘 열었습니다</span></a></p>
+			</div><!--open_alarm-->
+			<script type="text/javascript">
+				
+				var nowdate=new Date();
+				var today=nowdate.getDay();
+				// 0:일 1:월 2:화 3:수 4:목 5:금 6:토요일
+				var alarm=document.getElementById("open_alarm");
+				if(today==1){
+					alarm.style.backgroundImage = "url('images/off.png')";
+
+				}else{
+					alarm.style.backgroundImage = "url('images/on.png')";
+				}
+
+			</script>
+			<div id="contents_wrap">
+				<div class="color_wrap">
+					<div class="color_map"></div>
+					<div class="color_map"></div>
+					<div class="color_map"></div>
+					<div class="color_map"></div>
+					<div class="color_map"></div>
+				</div>
+				<section id="exposition">
+					<div class="expo1">
+						<a href="#">
+							<img src="images/expo1.jpg" alt="백남준 티브이웨이브" width="685" height="514">
+							<div class="expo_information">
+								<p>전시중</p>
+								<h3>백남준 티브이웨이브
+								<span class="date_expo">2020.03.24 - 2021.03.07</span>
+								<span class="expo_place">백남준 아트센터 제 1 전시실</span></h3>
+							</div>
+						</a>
+					</div><!--expo1-->
+					<div class="right_position">
+						<div class="expo2">
+							<a href="#">
+								<img src="images/expo2.png" alt="오주영 주사위게임" width="844" height="546">
+								<div class="expo_information">
+									<p>전시중</p>
+									<h3>오주영 : 주사위게임
+									<span class="date_expo">2020.05.19 - 2020.07.19</span>
+									<span class="expo_place">백남준 아트센터 이음 - 공간</span></h3>
+								</div><!--expo_information-->
+							</a>
+						</div><!--expo2-->
+						<div class="expo3">
+							<a href="#">
+								<img src="images/expo3.jpg" alt="침묵의 미래:하나의 언어가 사라진 순간" width="1229" height="694">
+								
+								<div class="expo_information">
+									<h3>침묵의 미래 : 하나의 언어가 <span class="vertical">사라진 순간</span><span class="date_expo">2020.03.24 - 2021.03.07</span><span class="expo_place">백남준 아트센터 이음 - 공간</span></h3>
+									<p>전시중</p>
+								</div>
+							</a>
+						</div><!--expo3-->
+					</div><!--right_position-->
+				</section><!--exposition-->
+				<section id="event">
+					<a href="#">
+						<div class="contents_wrap">
+							<p class="category">이벤트</p>
+							<div class="vertical_wrap">
+								<h3><span>침묵의 미래 : 하나의</span><span>언어가 사라진 순간</span></h3>
+								<p>잠정연기</p>
+							</div><!--vertical_wrap-->
+						</div><!--contents_wrap-->
+						<div class="img_wrap">
+							<img src="images/event1.jpg" alt="침묵의 미래 이벤트" width="235" height="160">
+						</div><!--img_wrap-->
+					</a>
+				</section><!--event-->
+				<section id="education_notice">
+					<div class="education1">
+						<a href="#">
+							<div class="img_wrap">
+								<img src="images/education1.jpg" alt="2020 상반기 NPJ 학교 교육 자료 배포" width="650" height="882">
+							</div><!--img_wrap-->
+							<div class="contents_wrap">
+								<p>교육</p>
+								<h3>2020 상반기 NPJ 학교<br>교육 자료 배포
+								<span class="date_education">2020.06.01 - 2020.07.31</span>
+								</h3>
+							</div><!--contents_wrap-->
+						</a>
+					</div><!--education1-->
+					<div class="notice">
+						<a href="#">
+							<h3>코로나 예방을 위한 올바른 관람 안내
+							<span>COVID-19</span>
+							</h3>
+							<div class="img_wrap">
+								<img src="images/covid.jpg" alt="코로나 예방을 위한 올바른 관람 안내" width="600" height="338">
+							</div><!--img_wrap-->
+						</a>
+					</div><!--notice-->
+					<div class="education2">
+						<a href="#">
+							<p>교육</p>
+							<h3>안녕, 백남준 아트센터<span class="edu_place">백남준 아트센터 야외</span></h3>
+							<div class="img_wrap">
+								<img src="images/education2.jpg" alt="안녕,백남준 아트센터" width="389" height="518">
+							</div><!--img_wrap-->
+						</a>
+					</div><!--education2-->
+				</section><!--education_notice-->
+			</div><!--contents_wrap-->
+		</div><!--container-->
+		<div id="bottom_wrap">
+			<footer id="bottom">
+				<ul id="bottom_menu">
+					<li><a href="#">센터소개</a></li>
+					<li><a href="#">리서치</a></li>
+					<li><a href="#">소식참여</a></li>
+				</ul><!--bottom_menu-->
+				<p class="top_btn"><a href="#top">TOP</a></p>
+				<div class="address_wrap">
+					<p><strong>백남준 아트센터</strong></p>
+					<address>
+						17068<br>경기도 용인시 기흥구 백남준로 10 (상갈동)
+					</address>
+				</div><!--address_wrap-->
+				<div class="info">
+					<div class="sns">
+						<p><a href="#" class="fa">&#xf09a;</a></p>
+						<p><a href="#" class="fa">&#xf099;</a></p>
+						<p><a href="#" class="fa">&#xf167;</a></p>
+						<p><a href="#" class="fa">&#xf16d;</a></p>
+					</div><!--sns-->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.0921118426136!2d127.10825305089284!3d37.26924277975585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5a980b3cdeb5%3A0x200d0dd23df5a33d!2z67Cx64Ko7KSA7JWE7Yq47IS87YSw!5e0!3m2!1sko!2skr!4v1602663755817!5m2!1sko!2skr" width="600" height="450" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div><!--info-->
+				<div class="popup_wrap">
+					<h4><a href="index.html"><img src="images/logo.png" alt="NAMJUNE PAIK ART CENTER" width="244" height="49"></a></h4>
+					<ul class="popup_menu">
+						<li><a href="#">개인정보 취급방칙</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">행정정보공개</a></li>
+						<li><a href="#">클린신고센터</a></li>
+					</ul><!--popup_menu-->
+					<p><a href="#">&copy;2020 백남준 아트센터</a></p>
+				</div><!--popup_wrap-->
+			</footer><!--bottom-->
+		</div><!--bottom_wrap-->
+	</div><!--wrap-->
+</body>
+</html>
